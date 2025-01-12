@@ -1,5 +1,5 @@
 # Library Management System
-
+The createTable_sqlfile contains all the sql codes for creatig the table and queries used in this project.
 ## Project Overview
 This Library Management System (LMS) enhances library operations by providing insights into borrowing patterns, managing late book returns, and generating personalized book recommendations. By transitioning from spreadsheet-based systems to a robust SQL database, this system optimizes the storage, retrieval, and management of library data. It includes a web interface for easy interaction with the database, enabling users to perform essential operations like adding new records, viewing borrowing history, and analyzing library trends.
 
