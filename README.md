@@ -18,7 +18,7 @@ This Library Management System (LMS) enhances library operations by providing in
 - **SQL Scripts**: SQL queries created tables and inserted data while ensuring referential integrity with foreign key constraints.
 
 ### 2. **Web Interface**: ( can be accesed using this link https://library-management-h292.onrender.com/)
-- **Python Files**:
+- **Python Files**: (Go to this link to get access to all these files https://drive.google.com/drive/folders/1B2IeCn5gIvYco9ofMnCTDBHkZqmYqVW0?usp=drive_link)
   - `urls.py`: Defines URLs for accessing different views in the system.
   - `views.py`: Contains core functions to handle website features, such as adding, updating, and retrieving records.
   - `settings.py`: Configures the database connection to the cloud-hosted PostgreSQL instance.
