@@ -1,0 +1,29 @@
+Procedure followed in my project:
+
+1)We have generated a fake dataset using the scritps (can be accesed: link:https://colab.research.google.com/drive/1HD3Bg8Yq0ZkZ73Olzf0WSml9qpHUx0PC)
+Where many rows of data has been created by using python code in colab. All these files are generated in the format of excels. 
+2)These files are then being compressed into csv files (which are included in 4-sub directory)
+3)After this a new database named Library_database has been created in the PGadmin sql.
+4)The sql query which is given in create.sql has been runned to create teh tabels.
+(Run the Insert statement Into subscriptions in create.sql,only after importing all the csv files for Author,Publishers, Users,Books,Transactions. If these values are already inside the subscriptions table Then due to foreign key constraints these data will be store inside the Users data which will cause error while importing CSV files for users.)
+5) Now manually imported the csv files(Provided in 4-sub directory) using respective tables .
+	Issues Encountered During Loading:
+	1) We encountered problems importing the relations in the
+	correct sequence when importing the data from fake
+	generated data’s CSV files (smaller versions, say 10
+	rows).
+	2) We were unable to import the files into the relations
+	in a mindless manner because of several foreign key
+	limitations.
+	3) The stage in which we resolved issues and completed
+	an import order was as follows:
+	• Author
+	• Publishers
+	• Users
+	• Books
+	• Transactions (Direct values were inserted for sub-
+	scriptions)
+6)Select statements are runned to confirmed the datasets.
+7)Then followed all the tasks and procedures as per the report.
+
+
