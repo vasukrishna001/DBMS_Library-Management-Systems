@@ -1,5 +1,5 @@
 --Creating Author Table
-DROP TABLE IF EXISTS Author;
+DROP TABLE IF EXISTS Author ;
 CREATE TABLE Author (
     Author_id INT PRIMARY KEY,
     Author_name VARCHAR(50),
