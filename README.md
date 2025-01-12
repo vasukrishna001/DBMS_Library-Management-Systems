@@ -22,7 +22,7 @@ This Library Management System (LMS) enhances library operations by providing in
   - `urls.py`: Defines URLs for accessing different views in the system.
   - `views.py`: Contains core functions to handle website features, such as adding, updating, and retrieving records.
   - `settings.py`: Configures the database connection to the cloud-hosted PostgreSQL instance.
-
+  - (all these three are included inside myapps in the drivce link provided)
 ### 3. **Key Database Tables**:
 - **Books**: Information about books, such as title, genre, and publisher.
 - **Authors**: Details of authors, including name and country.
